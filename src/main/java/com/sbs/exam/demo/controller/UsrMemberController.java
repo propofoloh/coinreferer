@@ -96,6 +96,11 @@ public class UsrMemberController {
 
 		return rq.jsReplace(Ut.f("%s님 환영합니다.", member.getNickname()), "/");
 	}
+	
+	@RequestMapping("/usr/member/join")
+	public String showJoin() {
+		return "usr/member/join";
+	}
 
 	@RequestMapping("/usr/member/myPage")
 	public String showMyPage() {

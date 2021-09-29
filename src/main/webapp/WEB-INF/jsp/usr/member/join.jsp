@@ -1,12 +1,12 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 
-<c:set var="pageTitle" value="로그인" />
+<c:set var="pageTitle" value="회원가입" />
 <%@ include file="../common/head.jspf"%>
 
 <section class="mt-5">
   <div class="container mx-auto px-3">
-    <form class="table-box-type-1" method="POST" action="../member/doLogin">
+    <form class="table-box-type-1" method="POST" action="../member/doJoin">
       <table>
         <colgroup>
           <col width="200" />
@@ -25,10 +25,33 @@
             </td>
           </tr>
           <tr>
-            <th>로그인</th>
+            <th>이름</th>
             <td>
-              <button type="submit" class="btn btn-primary">로그인</button>
-              <a href="../member/join" class="btn btn-primary">회원가입</a>
+              <input name="name" class="w-96 input input-bordered" type="text" placeholder="이름" />
+            </td>
+          </tr>
+          <tr>
+            <th>별명</th>
+            <td>
+              <input name="nickname" class="w-96 input input-bordered" type="text" placeholder="별명" />
+            </td>
+          </tr>
+          <tr>
+            <th>전화번호</th>
+            <td>
+              <input name="cellphoneNo" class="w-96 input input-bordered" type="text" placeholder="전화번호" />
+            </td>
+          </tr>
+          <tr>
+            <th>이메일</th>
+            <td>
+              <input name="email" class="w-96 input input-bordered" type="email" placeholder="이메일" />
+            </td>
+          </tr>
+          <tr>
+            <th>회원가입</th>
+            <td>
+              <button type="submit" class="btn btn-primary">회원가입</button>
               <button type="button" class="btn btn-outline btn-secondary" onclick="history.back();">뒤로가기</button>
             </td>
           </tr>
