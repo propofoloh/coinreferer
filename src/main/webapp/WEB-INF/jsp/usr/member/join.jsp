@@ -15,37 +15,37 @@
           <tr>
             <th>로그인아이디</th>
             <td>
-              <input name="loginId" class="w-96 input input-bordered" type="text" placeholder="로그인아이디" />
+              <input name="loginId" class="w-96 input input-bordered" type="text" placeholder="로그인아이디를 입력해주세요." />
             </td>
           </tr>
           <tr>
             <th>로그인비밀번호</th>
             <td>
-              <input name="loginPw" class="w-96 input input-bordered" type="password" placeholder="로그인비밀번호" />
+              <input name="loginPw" class="w-96 input input-bordered" type="password" placeholder="로그인비밀번호를 입력해주세요." />
             </td>
           </tr>
           <tr>
             <th>이름</th>
             <td>
-              <input name="name" class="w-96 input input-bordered" type="text" placeholder="이름" />
+              <input name="name" class="w-96 input input-bordered" type="text" placeholder="이름을 입력해주세요." />
             </td>
           </tr>
           <tr>
             <th>별명</th>
             <td>
-              <input name="nickname" class="w-96 input input-bordered" type="text" placeholder="별명" />
+              <input name="nickname" class="w-96 input input-bordered" type="text" placeholder="별명을 입력해주세요." />
             </td>
           </tr>
           <tr>
-            <th>전화번호</th>
+            <th>휴대전화번호</th>
             <td>
-              <input name="cellphoneNo" class="w-96 input input-bordered" type="text" placeholder="전화번호" />
+              <input name="cellphoneNo" class="w-96 input input-bordered" type="text" placeholder="휴대전화번호를 입력해주세요." />
             </td>
           </tr>
           <tr>
             <th>이메일</th>
             <td>
-              <input name="email" class="w-96 input input-bordered" type="email" placeholder="이메일" />
+              <input name="email" class="w-96 input input-bordered" type="email" placeholder="이메일을 입력해주세요." />
             </td>
           </tr>
           <tr>
